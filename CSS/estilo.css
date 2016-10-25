@@ -1,0 +1,306 @@
+html{
+	height: 100%;
+	box-sizing: border-box;
+
+}
+.c-derecha{
+	background-color: white;
+}
+
+body {
+    font-family: 'Baloo Bhaina', cursive;
+    font-size: 14px;
+    color: grey;
+    line-height: 20px;
+    min-height: 100%;
+    background-color:#102A2E;
+	
+}
+.titulo-seccion {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 900;
+   	text-transform: uppercase;
+   	color: #CC0033;
+   	position: relative;
+clear: both;
+}
+
+#nombre {
+    font-size: 28px;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #000000;
+}
+
+#profesion {
+    color: #777;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+p{
+    font-size: 16px;
+    color: #116C18;
+    line-height: 22px;
+    font-weight: 300;
+}
+
+.info{
+	color:#333;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	width: 50%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.valor {
+	color: #666;
+	font-size: 16px;
+	text-align: center;
+	width: 50%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+ul{
+	list-style: none;
+	padding-left: 0px;
+	
+}
+
+.hipervinculo{
+	width: 100%;
+	background-color: black;
+	display: inline-block;
+}
+
+.hipervinculo:hover p{
+    color:#33CC99;
+}
+.texto-menu{
+	font-weight: 700;
+	font-size: 12px ;
+	line-height: 45px;
+	text-align: right;
+	text-transform: uppercase;
+	color: #85878b;
+	margin:0px;
+	display: inline-block;
+	float: right;
+	margin-right: 5px;
+}
+a{
+	text-decoration: none;
+}
+a:hover {
+	color: white;
+}
+.item{ 
+	border-bottom: 1px solid #26292e; 
+	padding: 0px;
+	height: 45px;
+}
+.seccion-titulo {
+		border-bottom: solid  #efefef;
+		margin: 40px 10px 2px 40px;
+}
+.c-izquierda{
+		width: 26%;
+		float: left;
+
+		}
+.c-derecha{
+		width: 72%;
+		float: right;
+}
+.nerv{
+	background-image: url("../images/nerv.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+	min-height: 140px;
+	margin-bottom: 10px;
+}
+.fotocelu {
+	background-image: url("../images/fotocelu.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+	min-height: 140px;
+	margin-bottom: 10px;
+	margin-top: 4px;
+}
+.voley{
+	background-image: url("../images/voley.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+	min-height: 140px;
+	margin-bottom: 20px;
+	margin-top: 14px;
+}
+	
+.item_hobbie{
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+}
+.texto_hobbie{
+	text-align: center;
+	font-size: 22px;
+}
+.w-clearfix:before,
+.w-clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.w-clearfix:after {
+	clear: both;
+}
+.sobre_mi, .estudios, .objetivos_laborales, .hobbies{
+	padding: 30px 40px;
+}
+
+.contenedor{
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+
+}
+.imagen-menu{
+	background-size: cover;
+	background-position: 0 0;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.img_sobre_mi{
+	background-image: url("../images/profileimg.png");
+}
+.img_sobre_mi:hover{
+	background-color: #33CC99;
+	width: 45px;
+	height: 45px;
+}
+.hipervinculo:hover .img_sobre_mi{
+	background-image: url("../images/profileimg.png");
+}
+
+.img_estudios {
+	background-image: url("../images/estudios.png");
+}
+.img_estudios:hover{
+	background-color: #33CC99;
+	width: 45px;
+	height: 45px;
+}
+.hipervinculo:hover .img_estudios{
+	background-image: url("../images/estudios.png");
+}
+.img_objetivos_laborales{
+	background-image: url("../images/trabajo.png");
+}
+.img_objetivos_laborales:hover {
+	background-color: #33CC99;
+	width: 45px;
+	height: 45px;
+	}
+.hipervinculo:hover .img_obejtivos_laborales{
+	background-image: url("../images/trabajo.png");
+	
+}
+.img_hobbies{
+	background-image: url("../images/fotografia.png");
+}
+.img_hobbies:hover{
+	background-color: #33CC99;
+	width: 45px;
+	height: 45px;
+}
+.hipervinculo:hover .img_hobbies {
+	background-image: url("../images/fotografia.png");
+}
+
+.img_perfil{
+	background-size: cover;
+	background-position: 0 0;
+	width:243px;
+	height: 238px;
+	display:block;
+	float:center;
+	
+	
+	background-image: url("../images/avatar.jpg");
+	}
+
+.img_facebook{
+	background-image: url("../images/facebook.png");
+}
+.img_facebook:hover{
+	width: 50px;
+	height: 50px;
+}
+
+.img_twitter{
+	background-image: url("../images/twitter.png");
+}
+.img_twitter:hover{
+	width: 50px;
+	height: 50px;
+}
+
+.img_instagram{
+	background-image: url("../images/instagram.png");
+}
+.img_instagram:hover{
+	width: 50px;
+	height: 50px;
+}
+
+.rs{
+	background-size: cover;
+	background-position: 0 0;
+	width: 30px;
+	height: 30px;
+	display:block;
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+	padding-right: 8%;
+}
+#titulo{
+	text-align: center;
+	font-size: 80px;
+	color: white;
+	margin-top: 40px;
+}
+
+section{
+	clear: both;
+}
